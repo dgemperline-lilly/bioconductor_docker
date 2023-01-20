@@ -1,5 +1,5 @@
 # The suggested name for this image is: bioconductor/bioconductor_docker:devel
-ARG BASE_IMAGE=rocker/rstudio
+ARG BASE_IMAGE=rocker/tidyverse
 ARG BASE_TAG=devel
 FROM $BASE_IMAGE:$BASE_TAG
 
